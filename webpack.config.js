@@ -9,7 +9,16 @@ const config = {
     module: {
         rules: [{
                 test: /\.css$/,
-                use: 'css-loader'
+                use: [{
+                        loader: 'style-loader'
+                    },
+                    {
+                        loader: 'css-loader',
+                        options: {
+                            modules: true
+                        }
+                    }
+                ]
             },
             {
                 test: /\.ts$/,
