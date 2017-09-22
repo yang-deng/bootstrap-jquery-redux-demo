@@ -4,7 +4,8 @@
   "description": "try combination of bootstrap, jquery and redux",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
