@@ -5,7 +5,7 @@ const path = require('path');
 const config = {
     entry: './src/index.js',
     output: {
-        filename: 'bundle.js',
+        filename: 'index.bundle.js',
         path: path.resolve(__dirname, 'dist')
     },
     module: {
@@ -27,8 +27,7 @@ const config = {
                 use: 'ts-loader'
             },
             {
-                test: /\.js$/,
-                exclude: /node_modules/,
+                test: /\.(js|jsx)$/,
                 loader: "babel-loader"
             }
         ]
