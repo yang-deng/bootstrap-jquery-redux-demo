@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/yang-deng/bootstrap-jquery-redux-demo#readme",
   "dependencies": {
+    "chai": "^4.1.2",
     "mocha": "^3.5.3",
     "redux": "^3.7.2"
   }
