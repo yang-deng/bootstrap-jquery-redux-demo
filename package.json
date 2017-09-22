@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-jquery-redux-demo",
+  "version": "1.0.0",
+  "description": "try combination of bootstrap, jquery and redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yang-deng/bootstrap-jquery-redux-demo.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "jquery",
+    "redux"
+  ],
+  "author": "Eric Deng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yang-deng/bootstrap-jquery-redux-demo/issues"
+  },
+  "homepage": "https://github.com/yang-deng/bootstrap-jquery-redux-demo#readme"
+}
