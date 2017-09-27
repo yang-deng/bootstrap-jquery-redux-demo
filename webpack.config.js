@@ -3,9 +3,13 @@ const webpack = require('webpack');
 const path = require('path');
 
 const config = {
-    entry: './src/index.js',
+    entry: {
+        index: './src/index.js',
+        app: './src/index.js',
+        print: './src/print.js'
+    },
     output: {
-        filename: 'index.bundle.js',
+        filename: '[name].bundle.js',
         path: path.resolve(__dirname, 'dist')
     },
     module: {
