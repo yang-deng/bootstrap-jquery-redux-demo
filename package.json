@@ -36,7 +36,8 @@
     "redux": "^3.7.2",
     "style-loader": "^0.18.2",
     "ts-loader": "^2.3.7",
-    "webpack": "^3.6.0"
+    "webpack": "^3.6.0",
+    "xml-loader": "^1.2.1"
   },
   "devDependencies": {
     "chai": "^4.1.2",

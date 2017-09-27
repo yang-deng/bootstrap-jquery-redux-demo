@@ -42,6 +42,11 @@ const config = {
                     'csv-loader'
                 ]
             },
+            {
+                test: /\.xml$/,
+                use: [
+                    'xml-loader'
+                ]
             }
         ]
     },
