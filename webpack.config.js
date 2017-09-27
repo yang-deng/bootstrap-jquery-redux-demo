@@ -55,9 +55,8 @@ const config = {
         ]
     },
     plugins: [
-        new webpack.optimize.UglifyJsPlugin(),
         new HtmlWebpackPlugin({
-            template: './dist/index.html'
+            title: 'Output Management'
         })
     ]
 };
