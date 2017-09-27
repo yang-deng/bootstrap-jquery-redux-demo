@@ -36,6 +36,12 @@ const config = {
                     'file-loader'
                 ]
             },
+            {
+                test: /\.(csv|tsv)$/,
+                use: [
+                    'csv-loader'
+                ]
+            },
             }
         ]
     },
