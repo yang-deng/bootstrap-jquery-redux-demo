@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha",
     "build": "webpack",
-    "watch": "webpack --watch"
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
@@ -39,6 +40,7 @@
     "style-loader": "^0.18.2",
     "ts-loader": "^2.3.7",
     "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2",
     "xml-loader": "^1.2.1"
   },
   "devDependencies": {
