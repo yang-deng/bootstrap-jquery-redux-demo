@@ -6,9 +6,9 @@ const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const config = {
     devtool: 'cheap-module-source-map',
     plugins: [
-        new UglifyJSPlugin({
-            sourceMap: true
-        }),
+        // new UglifyJSPlugin({
+        //     sourceMap: true
+        // }),
         new webpack.DefinePlugin({
             'process.env': {
                 'NODE_DEV': JSON.stringify('production')
