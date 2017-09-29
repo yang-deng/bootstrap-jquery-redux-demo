@@ -5,5 +5,5 @@ node_modules
 
 *.log*
 
-dist/*.js
-dist/*.png
+dist/*.js*
+dist/*.png*
