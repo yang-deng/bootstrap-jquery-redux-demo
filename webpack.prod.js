@@ -13,7 +13,8 @@ const config = {
             'process.env': {
                 'NODE_DEV': JSON.stringify('production')
             }
-        })
+        }),
+        new webpack.HashedModuleIdsPlugin()
     ]
 };
 
